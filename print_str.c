@@ -17,10 +17,10 @@ int print_str(va_list arguments, char *buf, unsigned int ibuff)
 	if (str == NULL)
 	{
 		for (i = 0; nill[i]; i++)
-			ibuf = handl_buf(buf, nill[i], ibuff);
+			ibuff = handl_buf(buf, nill[i], ibuff);
 		return (6);
 	}
 	for (i = 0; str[i]; i++)
-		ibuf = handl_buf(buf, str[i], ibuff);
+		ibuff = handl_buf(buf, str[i], ibuff);
 	return (i);
 }
